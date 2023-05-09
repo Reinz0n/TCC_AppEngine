@@ -1,6 +1,10 @@
-runtime: python38
+runtime: php82
 
 handlers:
   - url: /
     static_files: index.html
     upload: index.html
+  - url: /assets
+    static_dir: assets
+  - url: /forms
+    static_dir: forms
